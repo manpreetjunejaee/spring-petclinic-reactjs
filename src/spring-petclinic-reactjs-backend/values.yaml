@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: https://038062473746.dkr.ecr.us-east-1.amazonaws.com/azure-devops-backend
+  repository: 038062473746.dkr.ecr.us-east-1.amazonaws.com/azure-devops-backend
   tag: latest
   pullPolicy: IfNotPresent
 
