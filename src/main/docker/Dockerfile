@@ -1,7 +1,6 @@
 FROM openjdk:alpine
 
-WORKDIR /home/dev/code
-
+WORKDIR /home/vsts/work/1/s/target
 COPY petclinic.jar .
 
 # To reduce Tomcat startup time we added a system property pointing to "/dev/urandom" as a source of entropy.
